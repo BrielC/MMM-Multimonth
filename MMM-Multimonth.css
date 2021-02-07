@@ -1,5 +1,6 @@
 /* The parent DIV that contains the entire container */
 .MMM-Multimonth .calendar {
+	text-align: center;
 	display: flex;
 	align-items: stretch;
 	white-space: nowrap;
@@ -76,8 +77,8 @@
 	padding-left: 4px;
 	padding-right: 4px;
 	border-radius: 8px;
-	background-color: cornflowerBlue;
-	color: black;
+	background-color: black;
+	color: red;
 	}
 
 .MMM-Multimonth .current_day {
@@ -85,7 +86,7 @@
 	min-width: 0;
 	padding-left: 4px;
 	padding-right: 4px;
-	background-color: Yellow;
+	background-color: white;
 	border-radius: 8px;
 	color: black;
 }
@@ -95,7 +96,7 @@
 	min-width: 0;
 	padding-left: 4px;
 	padding-right: 4px;
-	background-color: Yellow;
+	background-color: white;
 	border-radius: 8px;
 	color: black;
 }
