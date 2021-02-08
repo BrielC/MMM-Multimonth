@@ -82,7 +82,7 @@ Module.register("MMM-Multimonth", {
 					if (currentWeekday.isSame(firstDayOfMonth, "month")) {
 						if (currentWeekday.isSame(moment(), "day")) {
 							if (this.config.highlightWeekend) {
-								if (currentWeekday.day() == 0 || currentWeekday.day() == 6) {
+								if (currentWeekday.day() == 0 || currentWeekday.day() == 0) {
 									output += "<div class='current_day_weekend'>" + currentWeekday.format("D") + "</div>";
 								} else {
 									output += "<div class='current_day'>" + currentWeekday.format("D") + "</div>";
@@ -92,7 +92,7 @@ Module.register("MMM-Multimonth", {
 							}
 						} else { // End of current day 
 							if (this.config.highlightWeekend) {
-								if (currentWeekday.day() == 0 || currentWeekday.day() == 6) {
+								if (currentWeekday.day() == 0 || currentWeekday.day() == 0) {
 									output += "<div class='weekend'>" + currentWeekday.format("D") + "</div>";
 								} else {
 									output += "<div class='day'>" + currentWeekday.format("D") + "</div>";
